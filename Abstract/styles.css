@@ -1,0 +1,152 @@
+*{
+    font-family: 'GT America Standard', sans-serif;
+    margin: 0;
+}
+.header-content{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.header-content>*{
+    /* background-color: #000000; */
+    color: #ffffff;
+
+}
+
+.left{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.left>*{
+    font-size: 1.25rem;
+    /* padding: 1rem; */
+}
+
+.pad{
+    padding: .5rem;
+}
+
+.divider{
+    border: 1.5px solid #ffffff;
+    height: 2rem;
+    width: 0;
+}
+button{
+    border: 0;
+    padding: .5rem;
+    border-radius: .25rem;
+    background-color: #000;
+    color: #ffffff;
+    border: 1.25px solid #ffffff;
+    cursor: pointer;
+}
+#sign-in-btn{
+    background-color: #4C5FD5;
+    border: 0;
+    color: #ffffff;
+    
+}
+
+section{
+    /* border: 2px solid salmon; */
+    background-color: #dadbf1;
+    padding: 4rem;
+}
+
+.heading{
+    font-size: 4rem;
+    text-align: center;
+}
+
+section>input{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+
+.input{
+    display: flex;
+    /* border: 1px solid salmon; */
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.input>input{
+    width: 35rem;
+    padding-left: 1.2rem;
+    font-size: 1.2rem;
+    color: rgb(190, 190, 190);
+}
+
+.input>*{
+    border:0;
+}
+
+.search{
+    background-color: #ffffff;
+    /* border-right: 1px solid grey; */
+    /* border-top: 1px solid grey; */
+    /* border-bottom: 1px solid grey; */
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    /* justify-self: center; */
+}
+.cell{
+    margin-left: 8rem;
+}
+.title{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+.content{
+    /* border: 2px solid green; */
+    margin: 1rem 0 1rem 0;
+    font-size: 0.9rem;
+    width: 80%;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0 7rem 0;
+    /* height: fit-content; */
+}
+
+.learn-more{
+    color: #4C5FD5;
+}
+
+footer>*{
+    color: #ffffff;
+    /* border: 2px dotted saddlebrown; */
+}
+ul{
+    margin-top: .75rem;
+}
+li{
+    /* text-align: left;     */
+    font-size: .87rem;
+    position: relative;
+    right: 2.5rem;
+    margin: .25rem 0 .25rem 0;
+
+}
+.end{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    /* margin-top: 3rem; */
+    position: relative;
+    top: 3.5rem;
+}
