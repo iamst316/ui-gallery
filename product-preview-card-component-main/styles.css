@@ -31,4 +31,15 @@ img{
 
 .info{
     border: 2px solid gold;
+    display: flex;
+    flex-flow: column wrap;
+    width: fit-content;
+}
+.info>*{
+    border: 2px solid blue;
+    width: 30rem;
+
+}
+.desc{
+    /* border: 2px solid rebeccapurple; */
 }
