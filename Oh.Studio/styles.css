@@ -4,6 +4,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 body{
     display: flex;
     flex-direction: column;    
@@ -38,6 +42,9 @@ body{
 
 .first{
     border: var(--brd);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .first-text{
@@ -49,4 +56,40 @@ body{
     text-decoration: none;
     text-transform: none;
     letter-spacing: -0.2px;
+}
+
+.expertise{
+    display: flex;
+    /* justify-content: center; */
+    padding: .5rem;
+}
+
+.expertise div{
+    margin: 0 .75rem;
+    font-size: .8rem;
+    padding: .5rem;
+}
+
+.expertise-child{
+    border-radius: 2rem;
+    background-color: #fafafa;
+
+}
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted purple;
+}
+
+.social{
+    display: flex;
+    border: 2px solid saddlebrown;
 }
