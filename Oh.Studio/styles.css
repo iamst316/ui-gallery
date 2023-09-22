@@ -17,6 +17,20 @@ body{
     flex-direction: column;    
 }
 
+/* Animations */
+
+@keyframes fadeBottomUp {
+    0%{
+        opacity: 0;
+        transform: translateY(40%);
+    }
+}
+/* Animations END */
+
+.sticky-shop, .first,.img-grid{
+    animation: fadeBottomUp ease-in 1s 1 ;
+}
+
 .wrapper{
     display: flex;
     justify-content: center;
@@ -41,12 +55,37 @@ body{
     border-radius: 2rem;
 }
 
+.sticky-shop{
+    /* border: var(--brd); */
+    position: fixed;
+    top: 88vh;
+    width: 7rem;
+    padding: .2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.sticky-shop button{
+    width: 5.5rem;
+    border: 0;
+    font-size: .85rem;
+    border-radius: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
 .unselected{
     background-color: #ffffff00;
 }
 
 .selected{
     background-color: #fff;
+}
+
+.content{
+    margin-top: 7rem;
 }
 
 .first{
@@ -58,8 +97,10 @@ body{
 
 .first-text{
     /* border: var(--brd); */
+    width: 56%;
+    text-align: center;
     font-size: 72px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -0.2px;
     line-height: 1.2em;
     text-decoration: none;
@@ -71,6 +112,7 @@ body{
     display: flex;
     /* justify-content: center; */
     padding: .5rem;
+    margin: 2rem 0;
 }
 
 .expertise div{
@@ -138,4 +180,8 @@ body{
 
 .social div{
     margin: 0 1rem;
+}
+
+.social div a{
+    color: #000;
 }
