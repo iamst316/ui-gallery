@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <script src="./script.js"></script>
     <div class="wrapper">
         <div class="nav-tab">
-            <button>Home</button>
-            <button>Profile</button>
-            <button>Contact</button>
+            <button onclick="Select(0)" class="btn selected">Home</button>
+
+            <button onclick="Select(1)" class=" btn unselected">Profile</button>
+
+            <button onclick="Select(2)" class=" btn unselected">Contact</button>
         </div> 
     </div>   
     <div class="first">

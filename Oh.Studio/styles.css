@@ -4,6 +4,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 button{
     cursor: pointer;
 }
@@ -21,15 +25,13 @@ body{
 
 .nav-tab{
     position: fixed;
-    /* border: var(--brd); */
     width: 22rem;
     padding: .2rem;
-    
     display: flex;
     justify-content: space-around;
     height: 3rem;
     border-radius: 2rem;
-    background-color: #e8e5e480;
+    background-color: #e8e5e4d0;
 }
 
 .nav-tab button{
@@ -37,7 +39,14 @@ body{
     border: 0;
     font-size: 1rem;
     border-radius: 2rem;
+}
+
+.unselected{
     background-color: #ffffff00;
+}
+
+.selected{
+    background-color: #fff;
 }
 
 .first{
