@@ -132,27 +132,16 @@ a{
     border-radius: .5rem;
 }
 
-.url:hover{
-    /* font-size: 2rem; */
-    transform: translateX(20%);
+.url:hover{    
     color: #FF5733;
-    font-weight: 800;
-    /* font-family: monospace; */
     text-shadow: 2px 2px 3px rgb(255, 251, 4);
-    border: 2px solid rgb(255, 251, 4);
-    box-shadow: 2px 2px 3px #FF5733;
-    
-    /* background-color: blue; */
 }
 
 .ent-des{
     border: 2px solid green;
     padding: 1rem;
     font-size: .75rem;
-    /* display: none; */
-
     visibility: hidden;
-    /* opacity: 0; */
 }
 
 .url:hover + .ent-des{

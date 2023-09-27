@@ -157,7 +157,16 @@ body{
     align-items: center;
     padding: 3.5rem;
     margin: 5rem 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
 }
+
+.work.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .work div{
     font-size: 38px;
     font-weight: 600;
