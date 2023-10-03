@@ -1,0 +1,64 @@
+/*@font-face {
+    font-family: armin;
+    src: url("../assets/stark/fonts/armingrotesk-normal.otf") format('opentype');
+}*/
+
+*{
+    margin: 0;
+    --smooth-blue: #381fd1;
+    --dark-blue: #11284b;
+    --footer-blue: #10284b;
+/*     font-family: 'armin'; */
+}
+
+button{
+    cursor: pointer;
+}
+header {
+    background-color: #f6f6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+header img{
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+
+header button:not(.trial){
+    /* margin: 0 5rem; */
+    border: 0;
+    background-color: #ffffff00;
+    /* font-size: .9rem; */
+    color: var(--smooth-blue);
+    font-weight: 700;
+    border: 2px solid #ffffff00;
+    border-radius: .35rem;
+    padding: .25rem .5rem;
+    transition: all .5s ease-in-out;
+}
+
+header button:not(.trial):hover{
+    border: 2px solid var(--smooth-blue);
+
+}
+
+
+header *{
+    margin-right: 2.5rem;
+}
+
+.trial{
+    background-color: var(--smooth-blue);
+    color: #fff;
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+.trial:hover{
+    background-color: #877dc7;
+}

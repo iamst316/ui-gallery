@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution { 
+    color:#fff ;
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 4rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.content{
+    /* border: 2px solid orange; */
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: .5rem;
+    
+}
+.title,.advice,.divider *,.divider{
+    background-color: hsl(217, 19%, 24%);
+}
+
+.title{
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.advice{
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    max-width: 30rem;
+    text-align: center;
+    margin: 2.5rem 0 1rem 0;
+}
+
+.divider{
+    margin-top: 2rem;
+}
+
+.generate-btn {
+    position: relative;
+    top: 4.75rem;
+    background-color: #ffffff00;
+}
+
+.generate-btn button{
+    border: 0;
+    background-color: hsl(150, 100%, 66%);
+    padding: .9rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: box-shadow .5s ease-in-out;
+}
+
+.generate-btn button:hover{
+    box-shadow: 0px 0px 35px 8px hsl(150, 100%, 66%);
+}
+
+.generate-btn button img{
+    border-radius: .3rem;
+    background-color: #ffffff00;
+    position: relative;
+    top: .15rem;
+}
+
+.rotate{
+    /* animation: rotate 1s linear infinite; */
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
