@@ -85,7 +85,7 @@ body{
 }
 
 .rotate{
-    /* animation: rotate 1s linear infinite; */
+    animation: rotate 1s linear infinite;
 
 }
 
