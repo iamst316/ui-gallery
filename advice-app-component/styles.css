@@ -52,6 +52,7 @@ body{
     max-width: 30rem;
     text-align: center;
     margin: 2.5rem 0 1rem 0;
+    background-color: #ffffff00;
 }
 
 .divider{
@@ -87,6 +88,23 @@ body{
 .rotate{
     animation: rotate 1s linear infinite;
 
+}
+
+.fade-in{
+    animation: fade-in 1s linear 1;
+}
+
+
+@keyframes fade-in {
+    0%{
+        transform: translateX(40%);
+        opacity: 0;
+        background-color: #ffffff00;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 @keyframes rotate {
