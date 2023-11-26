@@ -8,6 +8,7 @@
     --smooth-blue: #381fd1;
     --dark-blue: #11284b;
     --footer-blue: #10284b;
+    --bone: #f6f6eb;
 /*     font-family: 'armin'; */
 }
 
@@ -61,4 +62,29 @@ header *{
 
 .trial:hover{
     background-color: #877dc7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--footer-blue);
+}
+
+.title div{
+    font-size: 3.5rem;
+    color: var(--bone);
+    font-weight: 700;
 }
