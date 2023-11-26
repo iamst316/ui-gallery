@@ -1,3 +1,30 @@
 *{
     margin: 0;
+    background-color: #000;
+}
+
+.hover-header {
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hover-header img{
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+.hover-header div{
+    display: flex;
+    flex-direction: column;
+}
+
+i{
+    aspect-ratio: 1/1;
+}
+
+.icons{
+    display: flex;
+    flex-flow: column wrap-reverse;
+    border: 2px solid green;
 }
