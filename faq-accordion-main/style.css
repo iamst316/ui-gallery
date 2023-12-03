@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    font-family: "work-sans";
+    --dark-purple: hsl(292, 42%, 14%);
+    --grayish-purple : hsl(292, 16%, 49%);
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+}
+
+@font-face {
+    font-family: "work-sans";
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+.bg-image{
+    height: 35vh;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+body>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 45vh;
+}
+.faq{
+    min-width: 40%;
+    max-width: 90%;
+    background-color: #fff;
+    /* border: 2px solid peru; */
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 20px 2px var(--grayish-purple);
+}
+
+.faq>div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+}
+/* .faq>div:nth-child(1)>div{
+    display: flex;
+    justify-content: flex-start;
+} */
+.faq>div>div:not(.answer,.query){
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--dark-purple);
+}
+
+/*  */
+
+.query{
+    color: var(--dark-purple);
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+.query:hover{
+    color: rgb(204, 0, 204);
+}
+
+.answer{
+    color: var(--grayish-purple);
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+
+}
+
+@keyframes slideDown{
+ 0%{
+    
+ }
+}

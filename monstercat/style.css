@@ -1,23 +1,28 @@
 *{
     margin: 0;
     background-color: #000;
+    --test-margin : 2px solid slateblue;
 }
 
 .hover-header {
     border: 2px solid salmon;
     display: flex;
-    justify-content: space-between;
-}
-
-.hover-header img{
-    width: 50px;
-    aspect-ratio: 1/1;
-}
-
-.hover-header div{
-    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
+
+.top{
+    border: var(--test-margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom{
+    
+}
+
 
 i{
     aspect-ratio: 1/1;
@@ -27,4 +32,9 @@ i{
     display: flex;
     flex-flow: column wrap-reverse;
     border: 2px solid green;
+    
+}
+
+.icons i{
+    border: var(--test-margin);
 }
