@@ -1,15 +1,14 @@
-/*@font-face {
-    font-family: armin;
-    src: url("../assets/stark/fonts/armingrotesk-normal.otf") format('opentype');
-}*/
-
+@font-face {
+    font-family: "armin";
+    src: url("./assets/fonts/armingrotesk-normal.otf");
+}
 *{
     margin: 0;
     --smooth-blue: #381fd1;
     --dark-blue: #11284b;
     --footer-blue: #10284b;
     --bone: #f6f6eb;
-/*     font-family: 'armin'; */
+    font-family: 'armin';
 }
 
 button{
@@ -79,12 +78,67 @@ header *{
 
 
 
+/* footer */
+
 footer{
     background-color: var(--footer-blue);
+    color: #fff;
+    padding: 4rem;
+}
+.title{
+    /* border: 2px dotted var(--bone); */
+    display: flex;
+    justify-content: space-between;
 }
 
 .title div{
+    /* border: 2px solid red; */
+    width: 55%;
     font-size: 3.5rem;
     color: var(--bone);
     font-weight: 700;
+}
+
+.title>img{
+    /* border: 2px solid var(--bone); */
+    width: 10%;
+}
+
+.columns{
+    /* border: 2px double orangered; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.entry{
+    font-weight: 600;
+    margin: .4rem 0;
+}
+.col-title{
+    font-weight: 600;
+}
+
+.last{
+    /* border: 2px solid palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+    /* padding: 0 1.5rem; */
+}
+
+.icons{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.icons div{
+    margin-right: .5rem;
+}
+
+.copyright{
+    font-weight: 600;
+    color: rgb(226, 226, 78);
+    word-spacing: 10px;
+    letter-spacing: 1px;
 }
