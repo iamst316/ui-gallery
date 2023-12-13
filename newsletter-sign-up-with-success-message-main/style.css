@@ -8,3 +8,136 @@
     --white: hsl(0, 0%, 100%);
     --tomato: hsl(4, 100%, 67%);
 }
+
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    /* border: 2px solid var(--bg-blue); */
+    background-color: var(--charcoal-grey);
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "roboto";
+}
+
+main{
+    /* border: 2px solid var(--tomato); */
+    background-color: #fff;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+main>div{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+main div{
+    color: var(--dark-slate-grey);
+}
+
+.form{
+    /* border: 2px solid red; */
+    padding: 2rem 1rem;
+    /* width: 40%; */
+}
+/* .form div{
+    border: 2px solid gold;
+} */
+
+.form>div:nth-child(1){
+    /* border: 2px solid blue; */
+    font-size: 3.5rem;
+    font-family: bold-roboto;
+    width: 80%;
+}
+
+.form>div:nth-child(2){
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: .75rem 0;
+}
+
+.form>div:nth-child(3){
+    width: 80%;
+    margin: .75rem 0;
+}
+
+.form>div:nth-child(3)>div{
+    margin: .35rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.form>div:nth-child(3)>div>div:nth-child(2){
+    margin-left: 8px;
+}
+
+.form>div:nth-child(4){
+    /* border: 2px dotted purple; */
+    margin: 2.5rem 0 .25rem 0;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#error-message{
+    color: var(--tomato);
+}
+
+.main-form{
+    /* border: 2px dotted purple; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.main-form>*{
+    height: 40px;
+    border-radius: 8px;
+}
+.main-form input{
+    border: 2px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.main-form button{
+    background-color: var(--bg-blue);
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+}
+
+.main-form button:hover{
+    background-color: var(--tomato);
+    
+}
+.mobile{
+
+}
+
+.desktop{
+    /* width: 90%; */
+    aspect-ratio: 1/2;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "bold-roboto";
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+}
