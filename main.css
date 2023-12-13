@@ -1,23 +1,31 @@
+@font-face {
+    font-family: "kalnia";
+    src: url("./assets/fonts/Kalnia/static/Kalnia-Regular.ttf");
+}
+
 *{
     margin: 0;
+    font-family: "kalnia";
 }
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(248, 247, 247);
+    background: rgb(255,123,123);
+    background: linear-gradient(90deg, rgba(255,123,123,1) 3%, rgba(255,183,80,1) 50%, rgba(255,86,181,1) 100%);
     margin-top: .5rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*  */
 main{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid #a8a8a888; */
+    background-color: #ffffffbe;
     margin: auto;
-    width: 98%;
+    min-width: 60%;
+    max-width: 98%;
     border-radius: .4rem;
     box-shadow: 2px 2px 3px rgb(117, 117, 117);
 }
