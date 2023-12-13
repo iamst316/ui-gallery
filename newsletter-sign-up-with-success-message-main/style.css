@@ -112,6 +112,10 @@ main div{
     margin-bottom: 1rem;
 }
 
+.main-form>input:focus {
+    border: 2px solid var(--bg-blue);
+}
+
 .main-form button{
     background-color: var(--bg-blue);
     color: #fff;
@@ -130,6 +134,32 @@ main div{
 .desktop{
     /* width: 90%; */
     aspect-ratio: 1/2;
+}
+
+.shake{
+    animation: shake 500ms 1;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(-5%);
+    }
+    20%{
+        transform: translateX(5%);
+
+    }
+    40%{
+        transform: translateX(-5%);
+
+    }
+    60%{
+        transform: translateX(5%);
+
+    }
+    80%{
+        transform: translateX(-5%);
+
+    }
 }
 
 @font-face {
