@@ -146,19 +146,15 @@ main div{
     }
     20%{
         transform: translateX(5%);
-
     }
     40%{
         transform: translateX(-5%);
-
     }
     60%{
         transform: translateX(5%);
-
     }
     80%{
         transform: translateX(-5%);
-
     }
 }
 
@@ -170,4 +166,44 @@ main div{
 @font-face {
     font-family: "bold-roboto";
     src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+
+/* success.html exclusive */
+
+.thanks{
+    border: 2px solid orange;
+}
+.thanks div{
+    /* border: 2px solid red; */
+}
+
+.main{
+    background-color: #fff;
+    max-width: 40%;
+    /* min-width:  */
+    margin: auto;
+    border-radius: 2rem;
+    padding: 2rem 0;
+}
+
+.main> div:nth-child(2){
+    /* width: 100%; */
+    display: inline;
+    border: 2px solid dodgerblue;
+    font-size: clamp(2rem, 3rem, 4rem);
+    color: var(--dark-slate-grey);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.main> div:nth-child(3){
+    border: 2px solid dodgerblue;
+    font-size: clamp(10px, 12px, 14px);
+    color: var(--dark-slate-grey);
+    line-height: 18px;
+}
+
+.main>button{
+    width: 100%;
 }
